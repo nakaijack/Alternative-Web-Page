@@ -1,0 +1,22 @@
+{
+  "name": "Bot.js",
+  "version": "1.0.0",
+  "description": "A Node JS Twitter bot that periodically searches for tweets and then like, reply automatically.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "config.js",
+    "test": "finals_bot.js"
+  },
+  "keywords": [
+    "finals",
+    "js",
+    "twitter",
+    "bot",
+    "roni",
+    "nikkai"
+  ],
+  "author": "Roni and Nikkai",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}

@@ -1,0 +1,116 @@
+/* imported font within folder */
+@font-face {
+    src: url(fonts/Lacquer-Regular.ttf);
+    font-family: nos;
+}
+
+/* Overall style used for website which includes background picture and type of text */
+html { 
+    background: url(computer.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: nos;
+    color:#65ff00;
+    font-size: large;
+  }
+
+/* style for text inside header */
+wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #65ff00;
+    padding: 32px;
+}
+
+/* style for individual header block*/
+header {
+    background-color:black;
+    opacity: 0.9;
+    height: 150px;
+    padding: 4px;
+    font-family: nos;
+}
+
+/* style for text inside header*/
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #65ff00;
+    line-height: 50px;
+    font-family: nos;
+}
+
+/*style for lower header "Portfolio" */
+header h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #65ff00;
+    line-height: 50px;
+    font-family: nos;
+
+}
+
+/* style for menu navigation bar */
+.main_menu {
+    text-transform: uppercase;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: black;
+    font-family: nos;
+}
+
+/* style for unordered list */
+ul.main_menu{
+    margin-top: 15px;
+}
+
+/* style for contents inside of lists */
+.main_menu li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+/* style for contents inside of list */
+.main_menu a {
+    text-decoration: none;
+    color: #65ff00;
+    padding: 8px;
+    font-variant: small caps;
+}
+
+/* function to hover over contents for navigation bar */
+.main_menu a:hover {
+    color: red;
+    font-size: 30px;
+}
+
+
+/* Style for previous button */
+.previous  {
+    color: #65ff00;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px;
+}
+
+
+
+/* style for kaigan picture in photography webpage */
+.kaigan {
+    background-color:none;
+    opacity: 0.9;
+    align-content: center;
+}
+
+div.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
